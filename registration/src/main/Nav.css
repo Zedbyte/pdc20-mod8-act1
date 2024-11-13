@@ -1,0 +1,30 @@
+/* Dark background inspired by GitHub */
+.github-navbar {
+    background-color: #24292e !important; /* Dark gray background */
+    /*border-bottom: 1px solid #444d56; /* Subtle border */
+}
+
+.github-logo {
+    color: #ffffff !important; /* White text for brand/logo */
+    font-size: 1.25rem; /* Slightly larger font */
+}
+
+.nav-link.github-link {
+    color: #cdd9e5 !important; /* Light gray text for links */
+    padding: 8px 15px; /* Padding for better click area */
+    font-weight: 500; /* Medium font weight for links */
+    transition: all 0.2s ease; /* Smooth transition on hover */
+}
+
+/* Hover effect: slightly darker text color */
+.nav-link.github-link:hover {
+    color: #ffffff !important; /* White text on hover */
+    background-color: transparent; /* Keep the background transparent */
+}
+
+/* Active link style: white and bold */
+.nav-link.github-link:focus {
+    color: #ffffff !important; /* White text for active link */
+    font-weight: bold; /* Bold for active link */
+    border-bottom: 2px solid #0366d6; /* Blue underline inspired by GitHub */
+}
